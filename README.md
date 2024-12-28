@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# To-Do List App 📝
+A modern and feature-rich To-Do List application built with Next.js, styled using Tailwind CSS, and powered by Prisma and MongoDB for data persistence.
 
-## Getting Started
+## Features
 
-First, run the development server:
+✅ Add tasks to your to-do list.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+✏️ Edit existing tasks to update details.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✔️ Mark tasks as completed.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🗑️ Delete tasks when no longer needed.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+💾 All data is stored in MongoDB and updated in real time.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+**Next.js:** Server-side rendering and React framework for a fast and SEO-friendly app.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Tailwind** CSS: Utility-first CSS framework for easy and customizable styling.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Prisma:** ORM for seamless interaction with MongoDB.
 
-## Deploy on Vercel
+**MongoDB:** Database for storing and managing task data.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Create a MongoDB database and get the connection URI.
+
+Add the URI to the .env file in the root directory
+
+
+## Usage
+**Add Task:** Type your task into the input field and press the "Add" button.
+
+**Mark as Completed:** Check the box next to a task to mark it as done.
+
+**Edit Task:** Click the "Edit" button next to a task, modify it, and save the changes.
+
+**Delete Task:** Click the "Delete" button to remove a task from the list.
+
+## Screenshot
+![image](https://github.com/user-attachments/assets/82c27659-276d-4b88-8d03-03b0836c0762)
+
+Preview UI
+
